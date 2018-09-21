@@ -229,9 +229,7 @@ return [
 
     ],
 
-];
-
- /*
+     /*
      * 接口频率限制
      */
     'rate_limits' => [
@@ -246,4 +244,8 @@ return [
             'limit'  => env('SIGN_RATE_LIMITS', 10),
         ],
     ],
+
 ];
+
+
+
