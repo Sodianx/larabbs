@@ -31,8 +31,9 @@ class User extends Authenticatable
      *
      * @var array
      */
-   protected $fillable = [
+protected $fillable = [
     'name', 'phone', 'email', 'password', 'introduction', 'avatar',
+    'weixin_openid', 'weixin_unionid'
 ];
 
     public function replies()
